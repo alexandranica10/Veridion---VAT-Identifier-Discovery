@@ -44,7 +44,7 @@ def check_hmrc_api(vat_number):
 
 print("Starting the VAT Discovery...\n")
 
-with open("manual_business.csv", mode='r', encoding='utf-8') as file:
+with open("business_sample.csv", mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     
     for row in reader:
